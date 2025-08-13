@@ -6,7 +6,7 @@ import axios from 'axios';
 
 export const userDataContext=createContext()
 const Usercontext = ({children}) => {
-    const serverUrl="http://localhost:5000"
+    const serverUrl="https://virtualassistantbackend-pzif.onrender.com"
     const[userData,setUserData]=useState(null)
     const [frontendImage, setFrontendImage] = useState(null);
     const [backendImage, setBackendImage] = useState(null);
